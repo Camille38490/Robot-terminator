@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terminator</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <script src="iframebattlefx.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu terminator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="iframebattlefx.js"></script>
 </head>
+
 <body>
-    
 
+  <div class="pers"><img id="direction" src="personnage.png"></div>
 
+  <div class="container noreponsive">
 
+    <div class="checkbox" class="noreponsive">
+      <input id="box" type="checkbox" checked>
+      <label for="">Auto/Manuel</label>
+    </div>
+
+    <div class="directional-buttons" class="noreponsive">
+      <button class="direction-button up">
+        <span class="visually-hidden">up</span>
+      </button>
+      <button class="direction-button left">
+        <span class="visually-hidden">left</span>
+      </button>
+      <button class="direction-button right">
+        <span class="visually-hidden">right</span>
+      </button>
+      <button class="direction-button down">
+        <span class="visually-hidden">down</span>
+      </button>
+    </div>
+
+  </div>
+
+  <div class="element noreponsive">
+    <div class="life">
+      <img src="coeur1.png">
+      <img src="coeur2.png">
+      <img src="coeur3.png">
+      <img src="coeur4.png">
+      <img src="coeur5.png">
+    </div>
+    <div class="bullet">
+      <img src="balles.png">
+    </div>
+  </div>
+  
 </body>
+
 </html>
